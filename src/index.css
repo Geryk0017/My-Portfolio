@@ -1,0 +1,24 @@
+@import 'tailwindcss';
+@plugin "@midudev/tailwind-animations";
+@tailwind utilities;
+
+@theme {
+  --color-primary: #05000b;
+  --color-secondary: #19cbaa;
+  --font-primary: 'primary';
+  --font-secondary: 'secondary';
+  --font-tertiary: 'tertiary';
+}
+
+@font-face {
+  font-family: primary;
+  src: url(./assets/font/Unbounded-Regular.ttf);
+}
+@font-face {
+  font-family: secondary;
+  src: url(./assets/font/Inter_18pt-Regular.ttf);
+}
+@font-face {
+  font-family: tertiary;
+  src: url(./assets/font/Praise-Regular.ttf);
+}
