@@ -1,7 +1,7 @@
 <template>
   <!-- Download CV Button -->
   <a
-    href="/public/cv/Bubutan CV.pdf"
+    href="/public/cv/Bubutan_CV.pdf"
     download="Geryk-CV.pdf"
     class="cursor-pointer flex justify-between items-center bg-gray-800 px-3 py-2 rounded-full text-white tracking-wider shadow-xl hover:bg-gray-900 hover:scale-105 duration-500 hover:ring-1 font-mono w-[150px]"
   >
