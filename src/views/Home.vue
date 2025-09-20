@@ -31,18 +31,18 @@
         <p class="text-white font-primary text-center md:text-[50px] md:text-left">TESTIMONIALS</p>
       </div>
 
-      <div class="md:p-[50px] w-full"><Testimonials /></div>
+      <div class="w-full"><Testimonials /></div>
     </div>
   </div>
   <!-- LEARNING PLATFORMS -->
-  <div class="w-full h-full p-15 pb-15">
+  <div class="w-full h-full p-15">
     <div class="w-full h-full">
       <div data-aos="zoom-in" class="mb-15">
         <p class="text-white font-primary text-center md:text-[50px] md:text-left">
           MY LEARNING PLATFORMS
         </p>
 
-        <p class="font-secondary text-white text-[18px]">
+        <p class="font-secondary text-white text-[18px] text-center md:text-left">
           I’m continuously learning and improving my skills in front-end development. My journey has
           <br />
           allowed me to explore both coding and UI design while building real-world projects.
@@ -55,42 +55,66 @@
             data-aos="fade-right"
             class="h-[250px] md:h-full md:col-span-2 bg-[#000000]/50 shadow-lg shadow-white/20 rounded-lg flex items-center justify-center"
           >
-            <img :src="GG" alt="Image 1" class="max-w-full max-h-full object-contain" />
+            <img
+              :src="GG"
+              alt="Image 1"
+              class="cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 max-w-full max-h-full object-contain"
+            />
           </div>
 
           <div
             data-aos="zoom-in"
             class="h-[250px] md:h-full md:row-span-2 bg-[#000000]/50 shadow-lg shadow-white/20 rounded-lg flex items-center justify-center"
           >
-            <img :src="W3schools" alt="Image 1" class="max-w-full max-h-full object-contain" />
+            <img
+              :src="W3schools"
+              alt="Image 1"
+              class="cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 max-w-full max-h-full object-contain"
+            />
           </div>
 
           <div
             data-aos="fade-left"
             class="h-[250px] md:h-full bg-[#000000]/50 shadow-lg shadow-white/20 rounded-lg flex items-center justify-center"
           >
-            <img :src="Google" alt="Image 1" class="p-15 max-w-full max-h-full object-contain" />
+            <img
+              :src="Google"
+              alt="Image 1"
+              class="cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 p-15 max-w-full max-h-full object-contain"
+            />
           </div>
 
           <div
             data-aos="fade-up"
             class="h-[250px] md:h-full bg-[#000000]/50 shadow-lg shadow-white/20 rounded-lg flex items-center justify-center"
           >
-            <img :src="yt" alt="Image 1" class="p-10 max-w-full max-h-full object-contain" />
+            <img
+              :src="yt"
+              alt="Image 1"
+              class="cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 p-10 max-w-full max-h-full object-contain"
+            />
           </div>
 
           <div
             data-aos="fade-left"
             class="h-[250px] md:h-full bg-[#000000]/50 shadow-lg shadow-white/20 rounded-lg flex items-center justify-center"
           >
-            <img :src="fcc" alt="Image 1" class="p-10 max-w-full max-h-full object-contain" />
+            <img
+              :src="fcc"
+              alt="Image 1"
+              class="cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 p-10 max-w-full max-h-full object-contain"
+            />
           </div>
 
           <div
             data-aos="fade-right"
             class="h-[250px] md:h-full bg-[#000000]/50 shadow-lg shadow-white/20 rounded-lg flex items-center justify-center"
           >
-            <img :src="figma" alt="Image 1" class="p-10 max-w-full max-h-full object-contain" />
+            <img
+              :src="figma"
+              alt="Image 1"
+              class="cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 p-10 max-w-full max-h-full object-contain"
+            />
           </div>
         </div>
       </div>
@@ -100,7 +124,7 @@
 
 <script setup>
 import Download from '@/components/Buttons/Download.vue'
-import Testimonials from '@/components/Cards/Testimonials.vue'
+import Testimonials from '@/components/Cards/Testimonials/Testimonials.vue'
 import W3schools from '@/assets/img/w3schools.png'
 import GG from '@/assets/img/GG_Logo.png'
 import Google from '@/assets/img/google.png'

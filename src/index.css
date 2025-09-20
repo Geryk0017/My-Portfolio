@@ -5,6 +5,7 @@
 @theme {
   --color-primary: #05000b;
   --color-secondary: #19cbaa;
+  --color-tertiary: #212b37;
   --font-primary: 'primary';
   --font-secondary: 'secondary';
   --font-tertiary: 'tertiary';
