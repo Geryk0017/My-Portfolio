@@ -1,20 +1,22 @@
 <template>
   <div class="h-screen p-5 flex items-center justify-center">
     <div class="w-full h-[500px] text-center text-white">
-      <p
-        class="md:text-[50px] font-primary animate-fade-in-left duration-500 [animation-delay:200ms]"
-      >
-        Hello, I'm Geryk
+      <p class="md:text-[50px] font-primary">
+        <TextType
+          :text="['Hello, I\'m Geryk']"
+          :typingSpeed="75"
+          :pauseDuration="1500"
+          :showCursor="true"
+          cursorCharacter="|"
+        />
       </p>
-      <p
-        class="md:text-[40px] font-tertiary animate-fade-in-right duration-500 [animation-delay:400ms]"
-      >
+      <p class="md:text-[40px] font-tertiary animate-slide-up-fade [animation-delay:600ms]">
         Front-End Developer crafting modern, user-friendly web experiences
       </p>
 
       <div class="text-center font-primary pt-[100px]">
         <p
-          class="text-[40px] md:text-[120px] font-bold text-white/20 animate-zoom-in [animation-delay:600ms]"
+          class="text-[40px] md:text-[120px] font-bold text-white/20 animate-slide-up-fade [animation-delay:1400ms]"
         >
           FRONT END DEV
         </p>
@@ -131,4 +133,5 @@ import Google from '@/assets/img/google.png'
 import yt from '@/assets/img/youtube.png'
 import fcc from '@/assets/img/fcc.png'
 import figma from '@/assets/img/figma.png'
+import TextType from '@/components/TextType.vue'
 </script>
