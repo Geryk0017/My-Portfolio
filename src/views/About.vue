@@ -150,5 +150,5 @@ import img10 from '@/assets/img/skills/10.png'
 import img11 from '@/assets/img/skills/11.png'
 import img12 from '@/assets/img/skills/12.png'
 
-import Me from '@/assets/img/Me.jpg'
+import Me from '@/assets/img/me.jpg'
 </script>
