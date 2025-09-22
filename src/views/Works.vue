@@ -9,16 +9,16 @@
 
   <!-- CARDS -->
   <div class="min-h-screen">
-    <div class="grid md:grid-cols-2 md:grid-rows-4 min-h-screen gap-4 m-4">
+    <div class="grid md:grid-cols-2 md:grid-rows-4 min-h-screen gap-4 sm:m-4">
       <div class="flex justify-center items-center">
         <burger-txt data-aos="fade-right" />
       </div>
 
       <div class="row-1 col-1 md:row-1 md:col-2">
-        <burger data-aos="zoom-in" />
+        <burger class="sm:m-4" data-aos="zoom-in" />
       </div>
 
-      <div class=""><pos data-aos="zoom-in" /></div>
+      <div class=""><pos class="sm:m-4" data-aos="zoom-in" /></div>
 
       <div class="flex justify-center items-center">
         <pos-txt data-aos="fade-left" />
@@ -28,15 +28,15 @@
         <capstone-txt data-aos="fade-right" />
       </div>
 
-      <div class="h-full"><capstone data-aos="zoom-in" /></div>
-      <div class="h-full"><Project1 data-aos="zoom-in" /></div>
+      <div class="h-full"><capstone class="sm:m-4" data-aos="zoom-in" /></div>
+      <div class="h-full"><Project1 class="sm:m-4" data-aos="zoom-in" /></div>
 
       <div class="flex justify-center items-center">
         <project1-txt data-aos="fade-right" />
       </div>
     </div>
 
-    <div class="relative h-[300px] md:h-full w-full mt-10">
+    <div class="relative h-[300px] md:h-full w-full">
       <!-- Image -->
       <img :src="frontend" class="w-full h-full object-cover" />
 
