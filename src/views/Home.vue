@@ -28,7 +28,7 @@
   </div>
   <!-- TESTIMONIALS -->
   <div class="w-full h-full p-15">
-    <div class="w-full h-full">
+    <div class="w-full h-full md:m-15">
       <div data-aos="fade-right">
         <p class="text-white font-primary text-center md:text-[50px] md:text-left">TESTIMONIALS</p>
       </div>

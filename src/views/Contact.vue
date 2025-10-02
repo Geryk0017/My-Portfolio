@@ -1,5 +1,5 @@
 <template>
-  <div class="m-10 min-h-screen max-w-screen">
+  <div class="flex justify-center items-center min-h-screen p-4 m-4 md:m-0">
     <section class="bg-gray-900/80 backdrop-blur-md rounded-xl dark:bg-gray-900">
       <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
         <h2
